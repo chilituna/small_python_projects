@@ -6,3 +6,4 @@ tip = float(input("How much tip would you like to give? (%)\n"))
 people = float(input("How many people are sharing the bill?\n"))
 pay = total * (tip / 100 + 1) / people
 print("Each person should pay %.2f EUR." % pay)
+exit()
