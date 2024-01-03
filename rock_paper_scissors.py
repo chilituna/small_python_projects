@@ -36,6 +36,7 @@ if choice >= 0 and choice <= 2:
   print(images[choice])
 else:
   print("That's not an option. You lose.")
+  exit()
 
 print("\nComputer chooses:")
 computer = random.randint(0, 2)
