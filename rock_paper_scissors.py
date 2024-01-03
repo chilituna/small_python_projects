@@ -31,16 +31,13 @@ import random
 
 images = [rock, paper, scissors]
 
-choice = input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n")
-choice = int(choice)
-
+choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n"))
 if choice >= 0 and choice <= 2:
   print(images[choice])
 else:
   print("That's not an option. You lose.")
 
 print("\nComputer chooses:")
-
 computer = random.randint(0, 2)
 print(images[computer])
 
