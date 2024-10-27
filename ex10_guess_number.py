@@ -12,7 +12,7 @@ HARD = 5
 
 def set_difficulty():
     difficulty = input("Choose difficulty: type 'easy' or hard': ")
-    while difficulty not in ["easy, hard"]:
+    while difficulty not in ["easy", "hard"]:
         input("Type 'easy' or hard': ")
     if difficulty == "easy":
         return EASY
